@@ -42,7 +42,7 @@ endif
 endif
 
 # platforms := freebsd-amd64 linux-amd64 linux-386 linux-armv5 linux-armv6 linux-armv7 linux-arm64 darwin-amd64 solaris-amd64 windows-amd64.exe windows-386.exe
-platforms := freebsd-amd64 linux-amd64 linux-386 linux-armv6 linux-armv7 linux-arm64 linux-loong64 linux-ppc64le linux-s390x darwin-amd64 darwin-arm64 solaris-amd64 windows-amd64.exe windows-386.exe
+platforms := freebsd-amd64 linux-amd64 linux-386 linux-armv6 linux-armv7 linux-arm64 linux-ppc64le linux-s390x darwin-amd64 darwin-arm64 solaris-amd64 windows-amd64.exe windows-386.exe
 
 clean:
 	rm -Rf $(PREFIX)/bin/*
