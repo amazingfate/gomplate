@@ -1,7 +1,7 @@
 name: Build
 on:
   push:
-    branches: [ main ]
+    branches: [ main, loongarch ]
     tags: [ 'v*' ]
   pull_request:
     branches: [ main ]
